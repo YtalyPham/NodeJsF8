@@ -1,0 +1,30 @@
+{
+  "name": "nodejsf8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YtalyPham/NodeJsF8.git"
+  },
+  "keywords": [
+    "learn",
+    "nodejs",
+    "f8"
+  ],
+  "author": "YtalyPham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YtalyPham/NodeJsF8/issues"
+  },
+  "homepage": "https://github.com/YtalyPham/NodeJsF8#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.3",
+    "nodemon": "^2.0.13"
+  }
+}
