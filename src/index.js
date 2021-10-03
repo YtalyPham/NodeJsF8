@@ -10,6 +10,9 @@ app.use(
     morgan('combined')
 )
 
+//img
+app.use(express.static(path.join(__dirname,'public')));
+
 //Templete Engine
 app.engine('hbs', handlebars({
     extname: '.hbs'
